@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Blog from './Blog';
+import BlogHooks from './BlogHooks';
+
 ReactDOM.render(
   <React.StrictMode>
-    <Blog />
+    {/* 両方出そうとすると、クラスコンポーネントでstate処理してるところと、ファンクションコンポーネントで処理してるところ
+    が混在してエラーになるので↓はコメントアウト */}
+    {/* <Blog /> */}
+
+    <BlogHooks />
   </React.StrictMode>,
   document.getElementById('root')
 );

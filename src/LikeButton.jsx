@@ -9,4 +9,5 @@ const LikeButton = (props) => {
 
 }
 
+//名前無しdefault のexport
 export default LikeButton
